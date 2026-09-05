@@ -1,0 +1,660 @@
+[
+  {
+    "id": "ba5556e7-1140-4d92-a689-6d530eff67ac",
+    "timestamp": "2026-09-05T14:29:24.891Z",
+    "transactionId": "TXN-000007",
+    "action": "REMINDER",
+    "outcome": "reminder_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "33c825fc-db35-48fa-a30b-b84bedfed96c",
+    "timestamp": "2026-09-05T14:29:24.891Z",
+    "transactionId": "TXN-000039",
+    "action": "SMART_RETRY",
+    "outcome": "retry_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Transient failure is likely to recover on retry."
+  },
+  {
+    "id": "a4930324-2d51-4186-8121-e128b5832e79",
+    "timestamp": "2026-09-05T14:29:24.891Z",
+    "transactionId": "TXN-000053",
+    "action": "REMINDER",
+    "outcome": "recovered",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "ebec2085-6488-4115-ad4a-15de571418b6",
+    "timestamp": "2026-09-05T14:29:24.891Z",
+    "transactionId": "TXN-000131",
+    "action": "SMART_RETRY",
+    "outcome": "retry_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Transient failure is likely to recover on retry."
+  },
+  {
+    "id": "296e9dd9-6dd5-4302-82ae-6e4717ceb3e1",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-000351",
+    "action": "SMART_RETRY",
+    "outcome": "recovered",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Transient failure is likely to recover on retry."
+  },
+  {
+    "id": "474a5490-10a8-4668-9d74-ec652ce06fcb",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-000407",
+    "action": "REMINDER",
+    "outcome": "reminder_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "8dc8a66a-cd1a-4d6b-9a1a-4d67cd1419c3",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-000468",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Failure is better handled by a fresh payment path."
+  },
+  {
+    "id": "b7720839-3bf7-464c-a205-1a903c2b1129",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-000608",
+    "action": "REMINDER",
+    "outcome": "reminder_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "c10c1ce0-b6ac-4013-8ce5-251aadf53e3c",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-000644",
+    "action": "REMINDER",
+    "outcome": "reminder_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "1508edb0-cb13-44fd-b1dd-4f71db5b61c8",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-000684",
+    "action": "SMART_RETRY",
+    "outcome": "recovered",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Transient failure is likely to recover on retry."
+  },
+  {
+    "id": "82abdce5-6805-4e47-abd0-d5395c8355bd",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-000702",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "A new payment attempt is safer than repeated retries."
+  },
+  {
+    "id": "786251ba-5170-4400-8950-fbdcd2b42014",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-000705",
+    "action": "SMART_RETRY",
+    "outcome": "recovered",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Transient failure is likely to recover on retry."
+  },
+  {
+    "id": "210957f3-9dc5-45b0-b39f-ace31fa09055",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-000717",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Failure is better handled by a fresh payment path."
+  },
+  {
+    "id": "18190743-b1f1-4dbd-a04e-64224df20d6b",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-000746",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Failure is better handled by a fresh payment path."
+  },
+  {
+    "id": "717450b5-a2c0-46ce-bd9e-6e00cf6d1926",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-000883",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Failure is better handled by a fresh payment path."
+  },
+  {
+    "id": "7470b23a-754d-4968-8ff6-e63c5b6954de",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-000933",
+    "action": "SMART_RETRY",
+    "outcome": "recovered",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Transient failure is likely to recover on retry."
+  },
+  {
+    "id": "39a59b8b-af7b-4fa2-9184-d100cfc7047e",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001104",
+    "action": "REMINDER",
+    "outcome": "recovered",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "220d234b-dcdc-40d4-b8c9-5bf03a1c19d0",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001109",
+    "action": "REMINDER",
+    "outcome": "recovered",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "c4a73550-1016-4528-a412-335a3dd8c426",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001119",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "A new payment attempt is safer than repeated retries."
+  },
+  {
+    "id": "6dbf5947-e685-49ab-aaf5-6898816829e1",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001135",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Failure is better handled by a fresh payment path."
+  },
+  {
+    "id": "bcfaf728-4547-4eeb-8a16-156f348d0deb",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001160",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "A new payment attempt is safer than repeated retries."
+  },
+  {
+    "id": "8b60440f-172e-4531-a2c2-9c81d1621be1",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001180",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "A new payment attempt is safer than repeated retries."
+  },
+  {
+    "id": "1fed4f6f-ae4d-4676-9b49-187a8926750b",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001288",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Failure is better handled by a fresh payment path."
+  },
+  {
+    "id": "b8b77bff-d9c2-4217-935f-a52c0b5bf360",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001311",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "A new payment attempt is safer than repeated retries."
+  },
+  {
+    "id": "67052ae5-2d86-41bf-961f-2427445ab694",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001419",
+    "action": "REMINDER",
+    "outcome": "reminder_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "d5bbdb66-155b-4d90-8dd1-c325e74292bb",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001428",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "A new payment attempt is safer than repeated retries."
+  },
+  {
+    "id": "394a0205-4fe0-48b4-a5d6-e12f1a412f3e",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001456",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Failure is better handled by a fresh payment path."
+  },
+  {
+    "id": "e5f55634-dbe0-45e1-9be4-24d026520186",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001471",
+    "action": "SMART_RETRY",
+    "outcome": "retry_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Transient failure is likely to recover on retry."
+  },
+  {
+    "id": "11c7b565-25ad-42f5-b1b8-dd40831d78a9",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001476",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Failure is better handled by a fresh payment path."
+  },
+  {
+    "id": "dfac82ae-735f-4da2-ad83-42e515406340",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001498",
+    "action": "REMINDER",
+    "outcome": "reminder_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "79c4c0ab-1ce9-4082-af36-9a9a991ecd21",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001579",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "A new payment attempt is safer than repeated retries."
+  },
+  {
+    "id": "3d5bef62-9cde-4137-962f-cfda4044be78",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001667",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "A new payment attempt is safer than repeated retries."
+  },
+  {
+    "id": "505bb32a-df16-4736-bdfb-8fdecdb7f0c5",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001681",
+    "action": "SMART_RETRY",
+    "outcome": "recovered",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Transient failure is likely to recover on retry."
+  },
+  {
+    "id": "829033d9-1bb7-41f9-86c8-0331ed8b1bd0",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001749",
+    "action": "SMART_RETRY",
+    "outcome": "recovered",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Transient failure is likely to recover on retry."
+  },
+  {
+    "id": "d18a0464-2d62-441d-b65a-b6bc26e5994c",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001939",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "A new payment attempt is safer than repeated retries."
+  },
+  {
+    "id": "4c704b24-bac4-4e95-acd4-be162508d4f4",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001953",
+    "action": "REMINDER",
+    "outcome": "reminder_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "9925f1e4-8f0f-448e-8b06-2bec64e085ce",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-001980",
+    "action": "REMINDER",
+    "outcome": "reminder_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "df166616-0d15-4c58-8e01-cba2b35c0f5d",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-002037",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Failure is better handled by a fresh payment path."
+  },
+  {
+    "id": "a9476973-1cd6-4bae-9efb-58e6760c391d",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-002175",
+    "action": "REMINDER",
+    "outcome": "reminder_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "95abff6f-5d13-4f41-897e-fa222f282810",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-002187",
+    "action": "SMART_RETRY",
+    "outcome": "recovered",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Transient failure is likely to recover on retry."
+  },
+  {
+    "id": "73d1339d-703b-4628-8d23-32d32e04f6f8",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-002246",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Failure is better handled by a fresh payment path."
+  },
+  {
+    "id": "c4c6f2a6-2871-4e9b-bb6d-f46aa6c98bf1",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-002296",
+    "action": "SMART_RETRY",
+    "outcome": "recovered",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Transient failure is likely to recover on retry."
+  },
+  {
+    "id": "3320a3a6-2eca-4514-9ca7-d5381201b7b7",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-002309",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Failure is better handled by a fresh payment path."
+  },
+  {
+    "id": "6ed5e36b-0167-48f6-9e47-9590e72a401b",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-002315",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "A new payment attempt is safer than repeated retries."
+  },
+  {
+    "id": "fc580ee4-31f6-4039-a859-b82d9200c059",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-002316",
+    "action": "REMINDER",
+    "outcome": "reminder_queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Customer may need time to replenish funds."
+  },
+  {
+    "id": "e23dc6bb-69e9-408d-9587-7685107b8b78",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-002426",
+    "action": "PAYMENT_LINK",
+    "outcome": "queued",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "A new payment attempt is safer than repeated retries."
+  },
+  {
+    "id": "2d22f69d-d893-4c0d-b617-16449510c48c",
+    "timestamp": "2026-09-05T14:29:24.892Z",
+    "transactionId": "TXN-002578",
+    "action": "SMART_RETRY",
+    "outcome": "recovered",
+    "policy": {
+      "maxRetries": 2,
+      "cooldownHours": 24,
+      "highValueThreshold": 15000,
+      "maxAgeHours": 168
+    },
+    "reason": "Transient failure is likely to recover on retry."
+  }
+]
